@@ -8,6 +8,7 @@ interface CardProps {
   h?: string;
 }
 
+// BUG!: w, h not working correctly
 export default function Card({
   children,
   classNames,

@@ -6,10 +6,10 @@ function App() {
     <>
       <div className="h-full bg-gradient-to-r from-gray-900 to-green-800">
         <div className="flex flex-col items-center h-full gap-8 pt-12 pb-12">
-          <Card w="3/5" h="3/4" classNames="p-6 rotate-[4deg] mb-12">
+          <Card classNames="w-3/5 h-3/4 p-6 rotate-[4deg] mb-12">
             <EnviloupMainCard />
           </Card>
-          <Card w="3/5" h="3/4" classNames="p-6">
+          <Card classNames="w-3/5 h-3/4 p-6">
             <div className="flex justify-around">
               <div className='pr-10'>
                 <h1 className="text-5xl text-gray-100 tracking-wide drop-shadow-lg mb-4">
@@ -28,7 +28,7 @@ function App() {
 							</div>
             </div>
           </Card>
-          <Card w="3/5" h="3/4" classNames="p-6">
+          <Card classNames="w-3/5 h-3/4 p-6">
             <div>
               <h1 className="text-5xl text-gray-100 tracking-wide drop-shadow-lg mb-4">
                 Enviloup
