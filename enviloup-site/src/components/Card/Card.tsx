@@ -17,7 +17,7 @@ export default function Card({
 }: CardProps) {
   const cardClasses = clsx(
     styles.card,
-    "rounded-3xl shadow-gray-800 shadow-2xl transition-transform transform",
+    "rounded-3xl shadow-gray-800 shadow-2xl",
     `w-${w}`,
     `h-${h}`,
     classNames
