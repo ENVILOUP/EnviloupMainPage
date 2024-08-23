@@ -1,0 +1,35 @@
+.EnviloupSideCardSection {
+    @apply flex flex-col items-center h-full justify-evenly gap-2 p-2;
+
+    
+    >.EnviloupIMG {
+        @apply w-[420px] rounded-full shadow-lg transition-transform transform contrast-200 rotate-[-4deg];
+    }
+    >.EnviloupHeader {
+        @apply text-4xl text-center text-gray-100 tracking-wide drop-shadow-lg mb-2;
+
+        /* For phones (portrait and landscape) */
+        @media only screen and (max-width: 480px) {
+            @apply text-3xl;
+        }
+
+        /* For tablets and folds */
+        @media only screen and (min-width: 481px) and (max-width: 1024px) {
+            @apply text-3xl;
+        }
+    }   
+    >.EnviloupParagraph {
+        @apply text-2xl text-gray-100;
+
+        /* For phones (portrait and landscape) */
+        @media only screen and (max-width: 480px) {
+            @apply text-lg;
+        }
+
+        /* For tablets and folds */
+        @media only screen and (min-width: 481px) and (max-width: 1024px) {
+            @apply text-2xl;
+        }
+
+    } 
+}

@@ -16,11 +16,11 @@ export default function Card({
   h = "full",
 }: CardProps) {
   const cardClasses = clsx(
-    styles.card,
     "rounded-3xl shadow-gray-800 shadow-2xl",
     `w-${w}`,
     `h-${h}`,
-    classNames
+    classNames,
+    styles.card
   );
 
   return (

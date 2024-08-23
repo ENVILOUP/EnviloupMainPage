@@ -9,4 +9,15 @@ body {
 	backdrop-filter: blur( 3px );
 	-webkit-backdrop-filter: blur( 3px );
 	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
+	@apply w-[60%] p-6;
+
+	/* For phones (portrait and landscape) */
+	@media only screen and (max-width: 480px) {
+		@apply w-[90%] p-2;
+	}
+	/* For tablets and folds */
+	@media only screen and (min-width: 481px) and (max-width: 1024px) {
+		@apply w-[80%] p-4;
+	}
 }
