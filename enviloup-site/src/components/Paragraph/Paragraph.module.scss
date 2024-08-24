@@ -1,0 +1,7 @@
+.paragraph {
+	@apply text-lg text-gray-100;
+
+	@screen sm {
+		@apply text-xl;
+	}
+}

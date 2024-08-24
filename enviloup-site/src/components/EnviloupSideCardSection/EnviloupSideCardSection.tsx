@@ -1,15 +1,13 @@
-import styles from './EnviloupSideCardSection.module.scss'
+import styles from "./EnviloupSideCardSection.module.scss";
 
 export default function EnviloupSideCardSection({
-    children,
+  children,
 }: {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }) {
-    return (
-        <>
-            <div className={styles.EnviloupSideCardSection}>   
-                {children}
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div className={styles.sideCardSection}>{children}</div>
+    </>
+  );
 }

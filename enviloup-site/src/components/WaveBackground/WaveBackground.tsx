@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import styles from './WaveBackground.module.scss'
 
 export default function WaveBackground({
   children,
@@ -8,7 +9,7 @@ export default function WaveBackground({
   return (
     <>
       <motion.div
-        className="h-full bg-gradient-to-r from-gray-900 to-green-800"
+        className={styles.background}
         initial={{ backgroundPosition: "0% 50%" }}
         animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
         transition={{ duration: 10, ease: "easeInOut", repeat: Infinity }}
