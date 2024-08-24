@@ -47,7 +47,7 @@ function App() {
                   consequatur nemo sint illum unde fugit enim porro similique
                   soluta nesciunt rem laudantium.
                 </Paragraph>
-								<Image className="md:mb-auto" src="/public/vite.svg" alt="" />
+								<Image className="md:mb-auto" src="vite.svg" alt="" />
               </div>
             </EnviloupSideCardSection>
           </Card>
