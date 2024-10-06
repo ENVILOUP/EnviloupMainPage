@@ -16,38 +16,71 @@ function App() {
           </Card>
           <Card>
             <EnviloupSideCardSection>
-              <Header>Enviloup</Header>
+              <Header>О нас</Header>
               <Paragraph>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia suscipit architecto incidunt illo minus fugit numquam
-                odio similique corrupti dolores doloribus ab esse, aspernatur
-                officia adipisci cumque dolore pariatur molestias? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Mollitia suscipit
-                architecto incidunt illo minus fugit numquam odio similique
-                corrupti dolores doloribus ab esse, aspernatur officia adipisci
-                cumque dolore pariatur molestias? Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Mollitia suscipit architecto
-                incidunt illo minus fugit numquam odio similique corrupti
-                dolores doloribus ab esse, aspernatur officia adipisci cumque
-                dolore pariatur molestias? Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Mollitia suscipit architecto
-                incidunt illo minus fugit numquam odio similique corrupti
-                dolores doloribus ab esse, aspernatur officia adipisci cumque
-                dolore pariatur molestias?
+                Мы команда Enviloup: 4 шиза, которые хотят перевернуть интернет!<br/><br/>
+                Мы разрабатываем супер крутые вещи на нашем <a href="https://github.com/ENVILOUP">GitHub</a>!
+                На данный момент мы разрабатывает полноценный клон ютуба с самыми важными вещами (об этом ниже).
               </Paragraph>
             </EnviloupSideCardSection>
           </Card>
           <Card>
             <EnviloupSideCardSection>
-              <Header>Enviloup</Header>
+              <Header>Что такое Enviloup?</Header>
+              <Paragraph>
+                Enviloup aka энвилоп - это <b>концепция</b> программы, которая включает в себя все программы.
+                Энвилоп - это множество всех возможных программ на машине Тьюринга.
+                Я придумал эту концепцию несколько лет назад, когда изучал C++<br/><br/>
+                Название концепция получила позже из ролика Азазазынг aka Azazin Kreet, где Максос сказал это ржачное слово.
+                Мы же нагло его приватизировали и используем!<br/><br/>
+                Подробнее о концепции - <a href="https://t.me/jojopko_dev/172">тут</a>
+              </Paragraph>
+            </EnviloupSideCardSection>
+          </Card>
+          <Card>
+            <EnviloupSideCardSection>
+              <Header>Enviloup Videos &amp; Road Map</Header>
+              <Paragraph>
+                Enviloup Videos - это наш флагманский проект: клон YouTube.<br/><br/>
+                У нас есть некоторый план (Road Map) для проекта и вот он:<br/><br/>
+                <ul>
+                  <b>Фичи для MVP Enviloup Videos:</b>
+                  <p>Это фичи для самого базового просмотра и загрузки видосиков.</p>
+                  <li>Потоковое видео</li>
+                  <li>Лайки, дизы</li>
+                  <li>Лента видосов</li>
+                  <li>Моковые рекомендации</li>
+                  <li>Админка для авторов (загрузка)</li>
+                  <li>Авторизация</li>
+                </ul>
+                <ul>
+                  <b>Фичи для Enviloup Videos v.1:</b>
+                  <p>Здесь уже нас могу выкупить, так как мы реализовали 80% фичей крупных сервисов.</p>
+                  <li>Сбор метаданных о юзерах</li>
+                  <li>Реальные рекомендации</li>
+                  <li>Комментарии</li>
+                  <li>Нормальный видеоплеер</li>
+                  <li>Умный поиск</li>
+                </ul>
+                <ul>
+                  <b>Фичи для Enviloup Videos v.2:</b>
+                  <p>Это уже уже можно на полном сурьёзе продвигать как замена ютуба по части функционала, остальное решается через инвестиции.</p>
+                  <li>Реклама и монетизация</li>
+                  <li>Продвинутая админка</li>
+                  <li>Модерация контента</li>
+                  <li>Кэшировние и CDN</li>
+                </ul>
+              </Paragraph>
+            </EnviloupSideCardSection>
+          </Card>
+          <Card>
+            <EnviloupSideCardSection>
+              <Header>Самореклама</Header>
               <div className="flex flex-col justify-around items-center md:flex-row">
                 <Paragraph className="pr-6 pb-4 sm:pb-0">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquid amet fuga, reprehenderit non culpa mollitia modi nisi
-                  consequatur nemo sint illum unde fugit enim porro similique
-                  soluta nesciunt rem laudantium.
+                  Подписывайтесь на <a href="https://t.me/+IvXVmRDjwO8xNzFi">телеграм канал</a> CTO проекта!
                 </Paragraph>
-								<Image className="md:mb-auto" src="vite.svg" alt="" />
+                <Image className="md:mb-auto" src="jojopkodev.png" alt="" />
               </div>
             </EnviloupSideCardSection>
           </Card>
