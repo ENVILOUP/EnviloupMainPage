@@ -6,7 +6,7 @@ export default function EnviloupMainCardSection() {
       <div className={styles.mainCardSection}>
         <img
           className={styles.mainCardSection__img}
-          src="enviloupv2.png"
+          src="enviloup-logo2.png"
           alt="Enviloup"
         />
         <h1 className={styles.mainCardSection__header}>

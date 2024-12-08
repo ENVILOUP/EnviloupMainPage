@@ -2,10 +2,10 @@
 	@apply w-[80px];
 
 	@screen md {
-		@apply w-[500px]
+		@apply w-[250px]
 	}
 
 	@screen lg {
-		@apply w-[500px]
+		@apply w-[350px]
 	}
 }

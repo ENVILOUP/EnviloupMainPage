@@ -19,11 +19,8 @@ RUN yarn build
 # Шаг 2: Продуктивное окружение
 FROM nginx:stable-alpine
 
-# Копируем билд из предыдущего этапа
-COPY --from=build /app/build /usr/share/nginx/html
-
-# Копируем кастомный конфиг Nginx (если требуется)
-#COPY nginx.conf /etc/nginx/nginx.conf
+# Копируем билд из папки `out`
+COPY --from=build /app/out /usr/share/nginx/html
 
 # Открываем порт 80 для сервера Nginx
 EXPOSE 80

@@ -2,7 +2,7 @@
 	@apply flex flex-col items-center h-full justify-evenly gap-6 p-2;
 
 	&__img {
-		@apply w-[420px] rounded-full shadow-lg transition-transform transform contrast-200 rotate-[-4deg];
+		@apply w-[420px] transition-transform transform rotate-[-4deg];
 	}
 
 	&__header {
